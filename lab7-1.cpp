@@ -13,7 +13,7 @@ int main()
     int dailyTexts = 0;
     double average = 0.0;
 
-    for (day = 1; day < 8; day += 1)
+    for (day = 1; day < 8; day +=1)
         {
             cout << "How many text messages did you send on day " << day << "? ";
             cin >> dailyTexts;
