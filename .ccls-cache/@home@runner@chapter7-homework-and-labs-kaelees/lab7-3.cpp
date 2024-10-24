@@ -20,7 +20,7 @@ int main()
              cout<< "How many text messages did you send on day" << day <<"?";
              cin>> dailyTexts;
              day = day+1;
-             totalTexts = totalTexts + dailyTexts;
+             totalTexts = totalTexts + dailyTexts
          }
     average=static_cast<double>(totalTexts)/(day-1);
      cout<< fixed<< setprecision(0);
